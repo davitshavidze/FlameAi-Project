@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flame AI 2.0</title>
+      <link rel="icon" type="image/x-icon" href="./images/FlameAi.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@32,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <header class="app-header">
+
+        <h1 class="heading">Hello, there</h1>
+        <h4 class="sub-heading">How can I help you today?</h4>
+
+      </header>
+
+      <ul class="suggestions">
+
+        <li class="suggestions-item">
+          <p class="text">Design a home office setup for remote work under $500.</p>
+          <span class="icon material-symbols-rounded">draw</span>
+        </li>
+
+        <li class="suggestions-item">
+          <p class="text">Whats the most high salary jobs in 2025? Write salaries too</p>
+          <span class="icon material-symbols-rounded">lightbulb</span>
+        </li>
+
+        <li class="suggestions-item">
+          <p class="text">Whats The weather today is like? tell me about...</p>
+          <span class="icon material-symbols-rounded">explore</span>
+        </li>
+
+        <li class="suggestions-item">
+          <p class="text">Create a React component for the simple Web-page</p>
+          <span class="icon material-symbols-rounded">code_blocks</span>
+        </li>
+
+      </ul>
+
+      <div class="chats-container"></div>
+      <div class="prompt-container">
+        <div class="prompt-wrapper">
+          <form action="#" class="prompt-form">
+            <input type="text" placeholder="Ask Gemini" class="prompt-input" required />
+            <div class="prompt-actions">
+              <div class="file-upload-wrapper">
+                <img src="#" class="file-preview" />
+
+                <input id="file-input" type="file" accept="image/*, .pdf, .txt, .csv" hidden />
+                <button type="button" class="file-icon material-symbols-rounded">description</button>
+                <button id="cancel-file-btn" type="button" class="material-symbols-rounded">close</button>
+                <button id="add-file-btn" type="button" class="material-symbols-rounded">attach_file</button>
+              </div>
+              <button id="stop-response-btn" type="button" class="material-symbols-rounded">stop_circle</button>
+              <button id="send-prompt-btn" class="material-symbols-rounded">arrow_upward</button>
+            </div>
+
+          </form>
+
+          <button id="theme-toggle-btn" class="material-symbols-rounded">light_mode</button>
+          <button id="delete-chats-btn" class="material-symbols-rounded">delete</button>
+
+        </div>
+
+        <p class="disclaimer-text">Flame Ai can make Mistakes, dont be 100% sure its correct => | Made by David Shavidze </p>
+
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
