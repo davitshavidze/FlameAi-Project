@@ -278,7 +278,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
 .prompt-form .prompt-actions #send-prompt-btn {
   color: #fff;
   display: none;
-  background: #1d7efd;
+  background: rgb(203, 154, 5);
 }
 
 .prompt-form .prompt-input:valid~.prompt-actions #send-prompt-btn {
@@ -286,7 +286,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
 }
 
 .prompt-form #send-prompt-btn:hover {
-  background: #0264e3;
+  background-color: rgb(106, 81, 6);
 }
 
 .prompt-form .file-upload-wrapper :where(button, img) {
