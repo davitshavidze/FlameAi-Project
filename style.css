@@ -1,6 +1,4 @@
 
-/* Poppins */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
@@ -57,7 +55,7 @@ body {
 .app-header .heading {
   width: fit-content;
   font-size: 3rem;
-  background: linear-gradient(to right, #1d7efd, #8f6fff);
+  background: linear-gradient(to right, #b39a0e, #de450e);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -66,7 +64,7 @@ body {
 .app-header .sub-heading {
   font-size: 2.6rem;
   margin-top: -5px;
-  color: var(--subheading-color);
+  color: rgb(218, 19, 19);
 }
 
 .container .suggestions {
